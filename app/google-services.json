@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "45777074672",
+    "firebase_url": "https://technoelite-284ac.firebaseio.com",
+    "project_id": "technoelite-284ac",
+    "storage_bucket": "technoelite-284ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45777074672:android:dd05b13cdc4894f6e48535",
+        "android_client_info": {
+          "package_name": "com.technoelite.technoelite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45777074672-s6rna636aujv17prr434sdk1o3cn9t1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.technoelite.technoelite",
+            "certificate_hash": "dc556e50e49963aaaed59432387128e4dc2de2ab"
+          }
+        },
+        {
+          "client_id": "45777074672-vm5jvqod42dvtdqo83gc4v8vl7bq63c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7Eia8h6mX00jXuvwg920qJK0F_NgQ5ZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45777074672-vm5jvqod42dvtdqo83gc4v8vl7bq63c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

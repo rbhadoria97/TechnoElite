@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.technoelite.technoelite.Dashboard">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/spacetravelloop"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="1dp"
+        app:cardPreventCornerOverlap='false'
+        app:cardUseCompatPadding="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvaboutus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:text="ABOUT US"
+                    android:padding="10dp"
+                    android:background="@color/black"
+                    android:textAlignment="center"
+                    android:textColor="@color/Transprentblue"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/back">
+
+
+                </RelativeLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="1"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardBackgroundColor="@color/back"
+                        android:layout_rowWeight="1"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:id="@+id/llprofile"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/back"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TECHNOELITE"
+                                android:padding="10dp"
+                                android:textAlignment="center"
+                                android:textColor="@color/Transprentblue"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:padding="10dp"
+                                android:fontFamily="sans-serif-condensed"
+                                android:justificationMode="inter_word"
+                                android:text="TechnoElite, the technical club of MCA SGSITS, organized by the Department of Inforamtion and Technology is the conjugation of technical geeks of the MCA community, providing them with a platform to make their skills and vision to reach the spire of their talents. The underlying spirit of TechnoElite was “to promote technical and scientific thinking along with a tint of innovation” a mission that has been followed by every techno ever since."
+                                android:textColor="@color/transparent"
+                                android:textSize="18sp"
+                                android:textStyle="normal" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardBackgroundColor="@color/back"
+                        android:layout_rowWeight="1"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/back"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="ORIGIN"
+                                android:padding="10dp"
+                                android:textAlignment="center"
+                                android:textColor="@color/Transprentblue"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:padding="10dp"
+                                android:fontFamily="sans-serif-condensed"
+                                android:justificationMode="inter_word"
+                                android:text="Back from its commencement in 2018 to till date TECHNOELITE. Justifying it's very named, the fest solely believes in igniting raw minds and ideas by giving them a thrilling opportunity to boost their confidence and inculcate in them the vision to see themselves as the budding leaders of the future technical world. The aim of team IGNITE is to take the level of this tech fest higher and higher by raising it's parameters up a few notches by each advancing year."
+                                android:textColor="@color/transparent"
+                                android:textSize="18sp"
+                                android:textStyle="normal" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardBackgroundColor="@color/back"
+                        android:layout_rowWeight="1"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/back"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="AIM"
+                                android:padding="10dp"
+                                android:textAlignment="center"
+                                android:textColor="@color/Transprentblue"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:padding="10dp"
+                                android:fontFamily="sans-serif-condensed"
+                                android:justificationMode="inter_word"
+                                android:text="The technical club is an indispensable part of technical college’s curriculum. The key objective of organizing this event is to provide a platform where young brains get to showcase their technical soundness and can compete with others to find the best. The highlight of the club is that we never solely aim on the competitions but on providing the participants with an environment where they compete, excel and prove themselves."
+                                android:textColor="@color/transparent"
+                                android:textSize="18sp"
+                                android:textStyle="normal" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="12dp"
+                        app:cardBackgroundColor="@color/back"
+                        android:layout_rowWeight="1"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/back"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="VISION"
+                                android:padding="10dp"
+                                android:textAlignment="center"
+                                android:textColor="@color/Transprentblue"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:padding="10dp"
+                                android:fontFamily="sans-serif-condensed"
+                                android:justificationMode="inter_word"
+                                android:text="We believe in steady growth and with this very motto, our entire team is working. The fest provides a platform for students to top their potential and unravel their quiescent talents. Students from diverse background and culture will get an opportunity to interact and learn from each other. The participants here will be bestowed upon with an unforgettable learning experience as TechnoElite offers a whole gamut of events like online coding, treasure hunt, online quizzes, fun events, etc."
+                                android:textColor="@color/transparent"
+                                android:textSize="18sp"
+                                android:textStyle="normal" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+
+                </GridLayout>
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
