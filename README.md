@@ -7,7 +7,8 @@
 https://drive.google.com/file/d/1BX58akQgfMzJ7XqN3jtUbY2AR-aTrzE_/view?usp=sharing
 
 ##### gif 
-<a href="https://imgflip.com/gif/4dgt5i">via Imgflip</a>
+![technoElite](https://user-images.githubusercontent.com/43443993/91873254-6b706900-ec96-11ea-9cab-4e7559b727f9.gif)
+
 
 
 
